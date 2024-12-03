@@ -20,7 +20,7 @@ side3 = int(input("enter the side3 \n"))
 
 if (side1==side2) and (side1==side3) :
     print ("the triangle is equilateral (all sides are equal)")
-elif (side1==side2) and (side1!=side3) :
+elif (side1==side2) or (side1==side3) :
     print("isosceles (exactly two sides are equal)")
 else:
     print("scalene (no sides are equal)")
